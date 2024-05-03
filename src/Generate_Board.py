@@ -36,10 +36,10 @@ def generate_board():
             self.labels = [[None] * 20 for _ in range(20)]
 
             # Load the images
-            self.photo_mouse = ImageTk.PhotoImage(Image.open("Pathfinding Snake/assets/img/grass_mouse.png").resize((40, 40), Image.BILINEAR))
-            self.photo_snake = ImageTk.PhotoImage(Image.open("Pathfinding Snake/assets/img/grass_snake.png").resize((40, 40), Image.BILINEAR))
-            self.photo_obstacle = ImageTk.PhotoImage(Image.open("Pathfinding Snake/assets/img/obstacle.png").resize((40, 40), Image.BILINEAR))
-            self.photo_grass = ImageTk.PhotoImage(Image.open("Pathfinding Snake/assets/img/grass.png").resize((40, 40), Image.BILINEAR))
+            self.photo_mouse = ImageTk.PhotoImage(Image.open("assets/img/grass_mouse.png").resize((40, 40), Image.BILINEAR))
+            self.photo_snake = ImageTk.PhotoImage(Image.open("assets/img/grass_snake.png").resize((40, 40), Image.BILINEAR))
+            self.photo_obstacle = ImageTk.PhotoImage(Image.open("assets/img/obstacle.png").resize((40, 40), Image.BILINEAR))
+            self.photo_grass = ImageTk.PhotoImage(Image.open("assets/img/grass.png").resize((40, 40), Image.BILINEAR))
 
             # Create and fill the grid with labels containing images
             for i in range(20):
